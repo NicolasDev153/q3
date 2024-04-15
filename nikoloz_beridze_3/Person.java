@@ -30,13 +30,11 @@ public class Person {
     }
 
     public void checkIn(Person person, Room room) {
-        // Add the person to the room
         room.checkIn(person);
     }
 
 
     public void checkOut(Person person, Room room) {
-        // Remove the person from the room
         room.checkOut(person);
     }
 }
